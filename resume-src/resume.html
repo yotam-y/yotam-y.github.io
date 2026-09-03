@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Yotam Yellin | Resume</title>
+<style>
+  @page { size: letter; margin: 0.38in 0.48in; }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 8.7pt;
+    line-height: 1.19;
+    color: #1a1a1a;
+  }
+
+  .name {
+    font-size: 17pt;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 0 0 2pt;
+    text-transform: uppercase;
+  }
+
+  .contact-line {
+    text-align: center;
+    font-size: 8.1pt;
+    color: #444;
+    margin-bottom: 7pt;
+    padding-bottom: 6pt;
+    border-bottom: 1.2pt solid #1a1a1a;
+  }
+  .contact-line a { color: #444; text-decoration: none; }
+  .contact-line span { margin: 0 4pt; }
+
+  h2 {
+    font-size: 8.4pt;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    margin: 7pt 0 3.5pt;
+    padding-bottom: 1.5pt;
+    border-bottom: 0.6pt solid #bbb;
+  }
+
+  .summary { margin: 0; text-align: justify; }
+
+  .job { margin-bottom: 5pt; }
+  .job:last-child { margin-bottom: 0; }
+
+  .job-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .job-title { font-weight: 700; font-size: 9.8pt; }
+  .job-dates { font-size: 8.6pt; color: #555; white-space: nowrap; }
+
+  .job-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 8.8pt;
+    color: #444;
+    margin-bottom: 3pt;
+  }
+  .job-company { font-style: italic; }
+  .job-tools { font-size: 8pt; color: #666; }
+
+  ul { margin: 0; padding-left: 12pt; }
+  li { margin-bottom: 1pt; }
+
+  .two-col {
+    display: flex;
+    gap: 20pt;
+  }
+  .two-col > div { flex: 1; }
+
+  .edu-line { margin-bottom: 2pt; }
+  .edu-school { font-weight: 700; }
+
+  .skills-row { margin-bottom: 2.5pt; }
+  .skills-label { font-weight: 700; }
+</style>
+</head>
+<body>
+
+<h1 class="name">Yotam Yellin</h1>
+<p class="contact-line">
+  San Francisco, CA <span>&middot;</span> +1 (510) 928-1925 <span>&middot;</span>
+  <a href="mailto:yotam@yellin.org">yotam@yellin.org</a> <span>&middot;</span>
+  <a href="https://www.linkedin.com/in/yotam-yellin/">linkedin.com/in/yotam-yellin</a> <span>&middot;</span>
+  <a href="https://yotam-y.github.io">yotam-y.github.io</a>
+</p>
+
+<h2>Summary</h2>
+<p class="summary">
+  Product, strategy, and operations leader with experience owning ML-driven risk and fraud platforms end to end in
+  regulated, high-stakes environments. Initiates and leads cross-functional programs across data science, engineering,
+  compliance, and go-to-market teams, translating model logic and quantitative tradeoffs into clear direction for
+  technical and non-technical audiences, from live incident response to long-term platform strategy.
+</p>
+
+<h2>Experience</h2>
+
+<div class="job">
+  <div class="job-head">
+    <span class="job-title">AVP, Product Strategy</span>
+    <span class="job-dates">Sept 2024 - April 2026</span>
+  </div>
+  <div class="job-sub">
+    <span class="job-company">Bank of America | New York City</span>
+    <span class="job-tools">SQL, SAS, Tableau, Excel</span>
+  </div>
+  <ul>
+    <li>Owned end-to-end health and performance of the wire fraud detection engine as product lead, driving roadmap, rule strategy, and delivery.</li>
+    <li>Partnered with data science to ship ML model features and optimize real-time detection, preventing <strong>eight figures in monthly customer losses</strong>.</li>
+    <li>Led a rule revamp and model transition from logistic regression to XGBoost, aligning engineering, data science, and operations on test design and staged rollout.</li>
+    <li>Built a weekly rule-optimization program using a composite performance methodology, systematically tuning and retiring underperforming rules while lowering false positives.</li>
+    <li>Partnered with Zelle and ACH product teams to align cross-product fraud strategy on shared detection infrastructure.</li>
+    <li>Balanced enforcement against user experience during live fraud attacks, partnering with executives to deploy mitigations while preserving industry-leading false positive rates.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head">
+    <span class="job-title">Fraud Data Analyst</span>
+    <span class="job-dates">Dec 2022 - May 2024</span>
+  </div>
+  <div class="job-sub">
+    <span class="job-company">Forter | Tel Aviv</span>
+    <span class="job-tools">SQL, Snowflake, Tableau, Qlik, Excel, Jira</span>
+  </div>
+  <ul>
+    <li>Managed analytics for a merchant fraud dispute platform, owning the chargeback and dispute resolution lifecycle across major card networks, <strong>recovering eight figures in revenue</strong>.</li>
+    <li>Led product strategy for dispute automation, partnering with vendors and internal teams to design and launch a scalable, low-touch resolution workflow end to end.</li>
+    <li>Partnered with Customer Success Managers to streamline client data-sharing and integrations, increasing client detection performance by 20%.</li>
+    <li>Used advanced SQL and quantitative analysis to refine detection rule logic and improve ML model performance, and built executive dashboards translating dispute analytics into cross-functional fraud strategy.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head">
+    <span class="job-title">Data Analyst</span>
+    <span class="job-dates">April 2021 - April 2022</span>
+  </div>
+  <div class="job-sub">
+    <span class="job-company">Apple (via Cprime) | Cupertino</span>
+    <span class="job-tools">SQL, Tableau, Excel</span>
+  </div>
+  <ul>
+    <li>Led search performance optimization to improve search relevance for <strong>500M+ users globally</strong> across Apple Music and the App Store.</li>
+    <li>Defined product health metrics and monitoring frameworks that gave analysts and engineers clear criteria to detect, validate, and remediate regressions at scale.</li>
+    <li>Mentored and evaluated a 20-person QA analyst team on large-scale data evaluation and pipeline quality workflows.</li>
+    <li>Diagnosed root causes of product regressions and partnered with engineering to drive fixes.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head">
+    <span class="job-title">Data and Business Analyst</span>
+    <span class="job-dates">May 2019 - April 2021</span>
+  </div>
+  <div class="job-sub">
+    <span class="job-company">SolarLeadFactory LLC (acquired by Enphase Energy) | San Francisco</span>
+    <span class="job-tools">SQL, R, Stata, Excel</span>
+  </div>
+  <ul>
+    <li>Founding data hire; built the company's analytics methodology and data strategy from the ground up.</li>
+    <li>Built forecasting models for solar adoption, increasing conversion predictability by <strong>30%</strong>.</li>
+    <li>Influenced marketing strategy by tying adoption behavior to long-term profitability, boosting sales <strong>15%</strong>, and built cost-benefit models translating utility rates and incentives into customer ROI projections.</li>
+  </ul>
+</div>
+
+<h2>Skills</h2>
+<div class="skills-row"><span class="skills-label">Data &amp; Tools:</span> SQL, Snowflake, SAS, Stata, R, Tableau, Qlik, Excel, Jira, Confluence, AI/LLM tooling</div>
+<div class="skills-row"><span class="skills-label">Risk &amp; Fraud:</span> Detection rule strategy, ML risk scoring (logistic regression, XGBoost), account takeover, chargebacks &amp; disputes, false-positive management, live incident response</div>
+<div class="skills-row"><span class="skills-label">Product &amp; Program:</span> End-to-end product ownership, roadmap definition, cross-functional leadership, vendor management, executive communication, process automation</div>
+
+<div class="two-col">
+  <div>
+    <h2>Education</h2>
+    <div class="edu-line"><span class="edu-school">University of California, Berkeley</span></div>
+    <div class="edu-line">B.S., Environmental Economics &amp; Policy</div>
+    <div class="edu-line" style="color:#555;">Languages: English, Hebrew, Spanish</div>
+  </div>
+  <div>
+    <h2>Leadership</h2>
+    <div class="edu-line"><strong>Haverim Mehaltzim</strong>, Co-founder</div>
+    <div class="edu-line" style="color:#555; margin-bottom:4pt;">Volunteer-led search and rescue initiative supporting families during emergencies.</div>
+    <div class="edu-line"><strong>Abraham Tent Program</strong>, Co-founder</div>
+    <div class="edu-line" style="color:#555;">Support framework and workshops for groups experiencing grief.</div>
+  </div>
+</div>
+
+</body>
+</html>
