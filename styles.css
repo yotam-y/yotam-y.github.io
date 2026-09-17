@@ -124,6 +124,10 @@ a:hover { text-decoration: underline; }
   height: 1.05em;
   flex: none;
 }
+
+/* Contact buttons stay neutral; only the icons carry the accent colour */
+.contact-links .btn svg { color: var(--color-primary); }
+.contact-links .btn:hover svg { color: var(--color-primary-dark); }
 .btn:hover { text-decoration: none; }
 .btn-primary { background: var(--color-primary); color: #fff; }
 .btn-primary:hover { background: var(--color-primary-dark); }
