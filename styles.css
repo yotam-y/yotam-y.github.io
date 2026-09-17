@@ -108,12 +108,21 @@ a:hover { text-decoration: underline; }
 
 /* Buttons */
 .btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
   padding: 0.7rem 1.4rem;
   border-radius: 999px;
   font-weight: 600;
   font-size: 0.95rem;
   border: 1px solid transparent;
+}
+
+.btn svg {
+  width: 1.05em;
+  height: 1.05em;
+  flex: none;
 }
 .btn:hover { text-decoration: none; }
 .btn-primary { background: var(--color-primary); color: #fff; }
